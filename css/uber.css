@@ -1,0 +1,279 @@
+body {
+  font-family: Roboto, sens-serif; }
+
+header {
+  position: relative; }
+
+nav {
+  height: 50px;
+  background-color: #212121; }
+
+.nav__menu {
+  padding: 13px 70px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between; }
+
+.menu__link {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal; }
+
+.menu__item {
+  border-right: 2px dotted black;
+  padding-right: 27px; }
+  .menu__item:last-child {
+    border-right: none; }
+
+.sub__header {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.sub__headerlogo {
+  max-width: 100%;
+  display: block;
+  margin-top: 16px; }
+
+.subheader_official {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-top: 6px; }
+
+.header__phone {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-top: 19px; }
+
+.header__number {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 12px; }
+
+.header__button {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px; }
+
+.info {
+  height: 799px;
+  background: url("../uber/logo.png") center center/cover no-repeat;
+  padding: 67px 0 135px 0; }
+
+.info__title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  margin-top: 67px;
+  text-align: center; }
+
+.info__subbttle {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center; }
+
+.info__text {
+  margin-top: 22px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center; }
+
+.info__button1 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 118px;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: uppercase; }
+
+.advantage {
+  min-height: 900px;
+  padding: 71px 0 65px 0; }
+  .advantage_title {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .advantage_subtitle {
+    margin-top: 38px;
+    text-align: center;
+    color: #222222;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase; }
+  .advantage_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px; }
+  .advantage_round {
+    margin-right: 25px; }
+  .advantage_descr {
+    width: 341px; }
+  .advantage_subbtitle {
+    color: #1eacc7;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal; }
+  .advantage_text {
+    color: #202020;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px; }
+
+.mobile {
+  height: 900px;
+  padding: 48px 0 79px 0;
+  background: url("../uber/bgcolor3.png") center center/cover no-repeat; }
+  .mobile_title {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .mobile_subtitle {
+    color: #222222;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 38px; }
+  .mobile_title_text {
+    color: #222222;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 19px; }
+  .mobile_item {
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 32px;
+    position: relative; }
+    .mobile_item_1 {
+      background: url("../uber/navigation1.png"); }
+    .mobile_item_2 {
+      background: url("../uber/navigation2.png"); }
+    .mobile_item_3 {
+      background: url("../uber/navigation3.png"); }
+    .mobile_item_4 {
+      background: url("../uber/navigation4.png");
+      margin-top: 19px; }
+    .mobile_item_5 {
+      background: url("../uber/navigation5.png");
+      margin-top: 19px; }
+    .mobile_item_6 {
+      background: url("../uber/navigation6.png");
+      margin-top: 19px; }
+  .mobile .mobibe_item_subtitle {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 92px; }
+  .mobile_item_plus {
+    position: absolute;
+    top: 219px;
+    left: 147px;
+    bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    margin: 0 auto;
+    background-color: #000000;
+    border-radius: 100%;
+    padding: 6px;
+    cursor: pointer; }
+
